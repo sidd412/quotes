@@ -1,0 +1,68 @@
+body{
+    
+    background-color: rgb(168, 167, 82);
+    background-image: url('quotebg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px sollid red; 
+}
+.body1{
+    height: 650px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 2px solid rgb(26, 236, 89);
+    padding: 50px;
+    max-width: 500px;
+    /* background-color: aquamarine; */
+    border-radius: 10px;
+   
+    
+}
+#quotes{
+    font-size: 1.2cm;
+    font-weight: bold;
+    /* font-style: italic; */
+    color: rgb(12, 170, 233);
+}
+#author{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: .5cm;
+    font-weight:bolder;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+#newQ{
+    width: 50%;
+    margin: 0 10px;
+    border: 2px solid rgb(37, 39, 8);
+    background-color: rgb(164, 182, 182);
+    border-radius: 5px;
+    font-weight: bold;
+}
+#tweetMe{
+    width: 50%;
+    margin:  0 10px;
+    border: 2px solid rgb(40, 41, 9);
+    background-color: rgb(170, 182, 182);
+    border-radius: 5px;
+    font-weight: bold;
+}
+#date{
+    margin: 20px;
+    height: 70px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1cm;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(21, 65, 21);
+
+}
